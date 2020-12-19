@@ -1,0 +1,748 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+//some_path	node_modules/url/test.js	/^  '\/\/some_path' : {$/;"	p	class:parseTests
+/foo/bar?baz=quux#frag	node_modules/url/test.js	/^  '\/foo\/bar?baz=quux#frag' : {$/;"	p	class:parseTestsWithQueryString
+Accept	node_modules/nba/src/get-json.js	/^  Accept: "*\/*",$/;"	p	class:const
+Accept-Encoding	node_modules/nba/src/get-json.js	/^  "Accept-Encoding": "gzip, deflate",$/;"	p	class:const
+Accept-Language	node_modules/nba/src/get-json.js	/^  "Accept-Language": "en-US",$/;"	p	class:const
+AssistTracker	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func AssistTracker(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Axios	node_modules/axios/lib/axios.js	/^var Axios = require('.\/core\/Axios');$/;"	v
+Axios	node_modules/axios/lib/core/Axios.js	/^function Axios(instanceConfig) {$/;"	c
+BIN	node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m
+BROWSERIFY	node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m
+Body	node_modules/node-fetch/lib/index.es.js	/^function Body(body) {$/;"	c
+Body	node_modules/node-fetch/lib/index.js	/^function Body(body) {$/;"	c
+Body.mixIn	node_modules/node-fetch/lib/index.es.js	/^Body.mixIn = function (proto) {$/;"	f
+Body.mixIn	node_modules/node-fetch/lib/index.js	/^Body.mixIn = function (proto) {$/;"	f
+BoxScore	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func BoxScore(params map[string]string) (resp *http.Response, err error) {$/;"	f
+BoxScoreSummary	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func BoxScoreSummary(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Cancel	node_modules/axios/lib/cancel/Cancel.js	/^function Cancel(message) {$/;"	c
+Cancel	node_modules/axios/lib/cancel/CancelToken.js	/^var Cancel = require('.\/Cancel');$/;"	v
+CancelToken	node_modules/axios/lib/cancel/CancelToken.js	/^function CancelToken(executor) {$/;"	c
+CancelToken.source	node_modules/axios/lib/cancel/CancelToken.js	/^CancelToken.source = function source() {$/;"	f
+CommonTeamRoster	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func CommonTeamRoster(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Content-Type	node_modules/axios/lib/defaults.js	/^  'Content-Type': 'application\/x-www-form-urlencoded'$/;"	p	class:DEFAULT_CONTENT_TYPE
+CustomError	node_modules/follow-redirects/index.js	/^  CustomError.prototype = new Error();$/;"	c
+CustomError	node_modules/follow-redirects/index.js	/^  function CustomError(message) {$/;"	c	class:createErrorType
+DELAY	node_modules/nba/test/get-json-stub.js	/^var DELAY = 10;$/;"	v
+Endpoint	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^type Endpoint struct {$/;"	t
+Endpoint	node_modules/nba-client-template/example-clients/simple-client.rb	/^  class Endpoint$/;"	c	class:NbaClient
+FUNC_ERROR_TEXT	node_modules/lodash.get/index.js	/^var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
+FUNC_ERROR_TEXT	node_modules/lodash.restparam/index.js	/^var FUNC_ERROR_TEXT = 'Expected a function';$/;"	v
+FetchError	node_modules/node-fetch/lib/index.es.js	/^function FetchError(message, type, systemError) {$/;"	c
+FetchError	node_modules/node-fetch/lib/index.js	/^function FetchError(message, type, systemError) {$/;"	c
+GameID	node_modules/nba/test/integration/stats.js	/^const game = {GameID: "0021401082"};$/;"	p	class:const
+HASH_UNDEFINED	node_modules/lodash.get/index.js	/^var HASH_UNDEFINED = '__lodash_hash_undefined__';$/;"	v
+HomepageV2	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func HomepageV2(params map[string]string) (resp *http.Response, err error) {$/;"	f
+INFINITY	node_modules/lodash.get/index.js	/^var INFINITY = 1 \/ 0;$/;"	v
+InterceptorManager	node_modules/axios/lib/core/Axios.js	/^var InterceptorManager = require('.\/InterceptorManager');$/;"	v
+InterceptorManager	node_modules/axios/lib/core/InterceptorManager.js	/^function InterceptorManager() {$/;"	c
+LeagueGameLog	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func LeagueGameLog(params map[string]string) (resp *http.Response, err error) {$/;"	f
+LeagueLeaders	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func LeagueLeaders(params map[string]string) (resp *http.Response, err error) {$/;"	f
+LeagueStandings	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func LeagueStandings(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Lineups	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func Lineups(params map[string]string) (resp *http.Response, err error) {$/;"	f
+MAX_SAFE_INTEGER	node_modules/lodash._baseeach/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MAX_SAFE_INTEGER	node_modules/lodash._baseflatten/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MAX_SAFE_INTEGER	node_modules/lodash._isiterateecall/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MAX_SAFE_INTEGER	node_modules/lodash.isarguments/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MAX_SAFE_INTEGER	node_modules/lodash.istypedarray/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MAX_SAFE_INTEGER	node_modules/lodash.keys/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MAX_SAFE_INTEGER	node_modules/lodash.keysin/index.js	/^var MAX_SAFE_INTEGER = 9007199254740991;$/;"	v
+MaxBodyLengthExceededError	node_modules/follow-redirects/index.js	/^var MaxBodyLengthExceededError = createErrorType($/;"	v
+NODE	node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m
+NbaClient	node_modules/nba-client-template/example-clients/simple-client.py	/^class NbaClient(object):$/;"	c
+NbaClient	node_modules/nba-client-template/example-clients/simple-client.rb	/^module NbaClient$/;"	m
+Object	node_modules/nba/scripts/generate-stats-docs.js	/^Object.prototype.into = function (fn, ...args) { return fn(this, ...args); };$/;"	c
+Origin	node_modules/nba-client-template/example-clients/golang/client/client.go	/^const Origin = "http:\/\/stats.nba.com"$/;"	c
+PATH	node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m
+PKG	node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m
+Parameter	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^type Parameter struct {$/;"	t
+PlayByPlay	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayByPlay(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerClutch	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerClutch(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerHustle	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerHustle(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerHustleLeaders	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerHustleLeaders(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerID	node_modules/nba-client-template/script/generate.js	/^  PlayerID: 201939 \/\/ Steph Curry$/;"	p	class:const
+PlayerID	node_modules/nba/test/integration/stats.js	/^const steph = {PlayerID: _steph};$/;"	p	class:const
+PlayerInfo	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerInfo(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerProfile	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerProfile(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerShooting	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerShooting(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerSplits	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerSplits(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerStats	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerStats(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayerTracking	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayerTracking(params map[string]string) (resp *http.Response, err error) {$/;"	f
+PlayersInfo	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func PlayersInfo(params map[string]string) (resp *http.Response, err error) {$/;"	f
+QueryString	node_modules/nba-client-template/example-clients/simple-client.rb	/^  class QueryString$/;"	c
+RedirectableRequest	node_modules/follow-redirects/index.js	/^function RedirectableRequest(options, responseCallback) {$/;"	c
+RedirectionError	node_modules/follow-redirects/index.js	/^var RedirectionError = createErrorType($/;"	v
+Referer	node_modules/nba-client-template/example-clients/golang/client/client.go	/^const Referer = "http:\/\/stats.nba.com\/scores\/"$/;"	c
+SHELL	node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m
+Scoreboard	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func Scoreboard(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Shots	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func Shots(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Stream	node_modules/node-fetch/lib/index.js	/^var Stream = require('stream');$/;"	v
+THIS_DIR	node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m
+THIS_MAKEFILE_PATH	node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m
+TeamClutch	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamClutch(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamHistoricalLeaders	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamHistoricalLeaders(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamHustleLeaders	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamHustleLeaders(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamID	node_modules/nba/test/integration/stats.js	/^const dubs = {TeamID: _dubs};$/;"	p	class:const
+TeamInfoCommon	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamInfoCommon(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamPlayerDashboard	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamPlayerDashboard(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamShooting	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamShooting(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamSplits	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamSplits(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamStats	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamStats(params map[string]string) (resp *http.Response, err error) {$/;"	f
+TeamYears	node_modules/nba-client-template/example-clients/golang/client/client.go	/^func TeamYears(params map[string]string) (resp *http.Response, err error) {$/;"	f
+Template	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^type Template struct {$/;"	t
+TooManyRedirectsError	node_modules/follow-redirects/index.js	/^var TooManyRedirectsError = createErrorType($/;"	v
+URL	node_modules/follow-redirects/index.js	/^var URL = url.URL;$/;"	v
+Url	node_modules/url/url.js	/^function Url() {$/;"	c
+User-Agent	node_modules/nba/src/get-json.js	/^  "User-Agent": template.user_agent,$/;"	p	class:const
+UserAgent	node_modules/nba-client-template/example-clients/golang/client/client.go	/^const UserAgent = "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/45.0.2454.101 Safari\/537.36"$/;"	c
+Writable	node_modules/follow-redirects/index.js	/^var Writable = require("stream").Writable;$/;"	v
+WriteAfterEndError	node_modules/follow-redirects/index.js	/^var WriteAfterEndError = createErrorType($/;"	v
+YARN	node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m
+_	node_modules/minimist/index.js	/^    var argv = { _ : [] };$/;"	p	class:argv
+__CANCEL__	node_modules/axios/lib/cancel/Cancel.js	/^Cancel.prototype.__CANCEL__ = true;$/;"	m	class:Cancel
+_interopDefault	node_modules/node-fetch/lib/index.js	/^function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }$/;"	f
+_onNativeResponse	node_modules/follow-redirects/index.js	/^  this._onNativeResponse = function (response) {$/;"	m	class:RedirectableRequest
+_performRequest	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype._performRequest = function () {$/;"	m	class:RedirectableRequest
+_processResponse	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype._processResponse = function (response) {$/;"	m	class:RedirectableRequest
+_sanitizeOptions	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype._sanitizeOptions = function (options) {$/;"	m	class:RedirectableRequest
+a	node_modules/querystring/test/index.js	/^extendedFunction.prototype = {a: 'b'};$/;"	p	class:extendedFunction
+adapt	node_modules/punycode/punycode.js	/^	function adapt(delta, numPoints, firstTime) {$/;"	f
+adapter	node_modules/axios/lib/defaults.js	/^  adapter: getDefaultAdapter(),$/;"	p	class:defaults
+addExtraTeamData	node_modules/nba/src/team-info.js	/^function addExtraTeamData (team) {$/;"	f
+aliasIsBoolean	node_modules/minimist/index.js	/^    function aliasIsBoolean(key) {$/;"	f
+aliases	node_modules/minimist/index.js	/^    var aliases = {};$/;"	v
+all	node_modules/axios/lib/axios.js	/^axios.all = function all(promises) {$/;"	f
+apiGet	node_modules/nba-client-template/example-clients/golang/client/api.go	/^func apiGet(reqURL string, params map[string]string) (*http.Response, error) {$/;"	f
+argDefined	node_modules/minimist/index.js	/^    function argDefined(key, arg) {$/;"	f
+argsTag	node_modules/lodash._baseisequal/index.js	/^var argsTag = '[object Arguments]',$/;"	v
+argsTag	node_modules/lodash.isarguments/index.js	/^var argsTag = '[object Arguments]',$/;"	v
+argsTag	node_modules/lodash.istypedarray/index.js	/^var argsTag = '[object Arguments]',$/;"	v
+argv	node_modules/minimist/example/parse.js	/^var argv = require('..\/')(process.argv.slice(2));$/;"	v
+arrayBufferTag	node_modules/lodash.istypedarray/index.js	/^var arrayBufferTag = '[object ArrayBuffer]',$/;"	v
+arrayPush	node_modules/lodash._baseflatten/index.js	/^function arrayPush(array, values) {$/;"	f
+arraySome	node_modules/lodash._baseisequal/index.js	/^function arraySome(array, predicate) {$/;"	f
+arrayTag	node_modules/lodash.isarray/index.js	/^var arrayTag = '[object Array]',$/;"	v
+assert	node_modules/follow-redirects/index.js	/^var assert = require("assert");$/;"	v
+assert	node_modules/nba-client-template/test/index.js	/^var assert = require("assert");$/;"	v
+assert	node_modules/url/test.js	/^var assert = require('assert');$/;"	v
+assertIsString	node_modules/nba-client-template/test/index.js	/^function assertIsString (s) {$/;"	f
+assignValue	node_modules/axios/lib/utils.js	/^  function assignValue(val, key) {$/;"	f	function:merge
+assistTracker	node_modules/nba/src/stats.js	/^  assistTracker: general,$/;"	p	class:const
+axios.all	node_modules/axios/lib/axios.js	/^axios.all = function all(promises) {$/;"	f
+axios.create	node_modules/axios/lib/axios.js	/^axios.create = function create(instanceConfig) {$/;"	f
+base	node_modules/nba/src/transforms.js	/^function base (resp) {$/;"	f
+baseCallback	node_modules/lodash._createaggregator/index.js	/^var baseCallback = require('lodash._basecallback'),$/;"	v
+baseCallback	node_modules/lodash.find/index.js	/^var baseCallback = require('lodash._basecallback'),$/;"	v
+baseCallback	node_modules/lodash.mapkeys/index.js	/^var baseCallback = require('lodash._basecallback'),$/;"	v
+baseEach	node_modules/lodash._baseeach/index.js	/^var baseEach = createBaseEach(baseForOwn);$/;"	v
+baseFind	node_modules/lodash._basefind/index.js	/^function baseFind(collection, predicate, eachFunc, retKey) {$/;"	f
+baseFindIndex	node_modules/lodash._basefindindex/index.js	/^function baseFindIndex(array, predicate, fromRight) {$/;"	f
+baseFlatten	node_modules/lodash._baseflatten/index.js	/^function baseFlatten(array, isDeep, isStrict, result) {$/;"	f
+baseFlatten	node_modules/lodash.pick/index.js	/^var baseFlatten = require('lodash._baseflatten'),$/;"	v
+baseFor	node_modules/lodash._baseeach/index.js	/^var baseFor = createBaseFor();$/;"	v
+baseFor	node_modules/lodash._basefor/index.js	/^var baseFor = createBaseFor();$/;"	v
+baseFor	node_modules/lodash._pickbycallback/index.js	/^var baseFor = require('lodash._basefor'),$/;"	v
+baseForIn	node_modules/lodash._pickbycallback/index.js	/^function baseForIn(object, iteratee) {$/;"	f
+baseForOwn	node_modules/lodash._baseeach/index.js	/^function baseForOwn(object, iteratee) {$/;"	f
+baseForOwn	node_modules/lodash.mapkeys/index.js	/^function baseForOwn(object, iteratee) {$/;"	f
+baseIsEqual	node_modules/lodash._basecallback/index.js	/^var baseIsEqual = require('lodash._baseisequal'),$/;"	v
+baseIsEqual	node_modules/lodash._baseisequal/index.js	/^function baseIsEqual(value, other, customizer, isLoose, stackA, stackB) {$/;"	f
+baseIsEqual	node_modules/lodash._baseismatch/index.js	/^var baseIsEqual = require('lodash._baseisequal');$/;"	v
+baseIsEqualDeep	node_modules/lodash._baseisequal/index.js	/^function baseIsEqualDeep(object, other, equalFunc, customizer, isLoose, stackA, stackB) {$/;"	f
+baseIsMatch	node_modules/lodash._baseismatch/index.js	/^function baseIsMatch(object, matchData, customizer) {$/;"	f
+baseIsMatch	node_modules/lodash._basematches/index.js	/^var baseIsMatch = require('lodash._baseismatch'),$/;"	v
+baseMatches	node_modules/lodash._basematches/index.js	/^function baseMatches(source) {$/;"	f
+baseMatches	node_modules/lodash.findwhere/index.js	/^var baseMatches = require('lodash._basematches'),$/;"	v
+baseProperty	node_modules/lodash._baseeach/index.js	/^function baseProperty(key) {$/;"	f
+baseProperty	node_modules/lodash._baseflatten/index.js	/^function baseProperty(key) {$/;"	f
+baseProperty	node_modules/lodash._isiterateecall/index.js	/^function baseProperty(key) {$/;"	f
+baseProperty	node_modules/lodash.keys/index.js	/^function baseProperty(key) {$/;"	f
+bases	node_modules/url/test.js	/^var bases = [$/;"	v
+basicToDigit	node_modules/punycode/punycode.js	/^	function basicToDigit(codePoint) {$/;"	f
+bind	node_modules/axios/lib/axios.js	/^var bind = require('.\/helpers\/bind');$/;"	v
+bind	node_modules/axios/lib/helpers/bind.js	/^module.exports = function bind(fn, thisArg) {$/;"	f
+bind	node_modules/axios/lib/utils.js	/^var bind = require('.\/helpers\/bind');$/;"	v
+bindCallback	node_modules/lodash._bindcallback/index.js	/^function bindCallback(func, thisArg, argCount) {$/;"	f
+blank	node_modules/nba/src/util/blank.js	/^module.exports = function blank (obj) {$/;"	f
+bools	node_modules/minimist/index.js	/^    var flags = { bools : {}, strings : {}, unknownFn: null };$/;"	p	class:flags
+buildFullPath	node_modules/axios/lib/adapters/http.js	/^var buildFullPath = require('..\/core\/buildFullPath');$/;"	v
+buildFullPath	node_modules/axios/lib/adapters/xhr.js	/^var buildFullPath = require('..\/core\/buildFullPath');$/;"	v
+buildFullPath	node_modules/axios/lib/core/buildFullPath.js	/^module.exports = function buildFullPath(baseURL, requestedURL) {$/;"	f
+buildPlayers	node_modules/nba/src/util/build-players.js	/^function buildPlayers (_players) {$/;"	f
+buildURL	node_modules/axios/lib/adapters/http.js	/^var buildURL = require('.\/..\/helpers\/buildURL');$/;"	v
+buildURL	node_modules/axios/lib/adapters/xhr.js	/^var buildURL = require('.\/..\/helpers\/buildURL');$/;"	v
+buildURL	node_modules/axios/lib/core/Axios.js	/^var buildURL = require('..\/helpers\/buildURL');$/;"	v
+buildURL	node_modules/axios/lib/helpers/buildURL.js	/^module.exports = function buildURL(url, params, paramsSerializer) {$/;"	f
+byteify	node_modules/nba-client-template/example-clients/simple-client.py	/^def byteify(input):$/;"	f
+check	node_modules/nba-client-template/example-clients/golang/usage.go	/^func check(e error) {$/;"	f
+clearTimer	node_modules/follow-redirects/index.js	/^function clearTimer() {$/;"	f
+code	node_modules/follow-redirects/index.js	/^  CustomError.prototype.code = code;$/;"	m	class:CustomError
+coerce	node_modules/debug/src/debug.js	/^function coerce(val) {$/;"	f
+collectify	node_modules/nba/src/util/collectify.js	/^module.exports = function collectify (headers, rows) {$/;"	f
+combineURLs	node_modules/axios/lib/core/buildFullPath.js	/^var combineURLs = require('..\/helpers\/combineURLs');$/;"	v
+combineURLs	node_modules/axios/lib/helpers/combineURLs.js	/^module.exports = function combineURLs(baseURL, relativeURL) {$/;"	f
+common	node_modules/axios/lib/defaults.js	/^  common: {$/;"	p	class:defaults.headers
+commonTeamRoster	node_modules/nba/src/stats.js	/^  commonTeamRoster: general,$/;"	p	class:const
+constructor	node_modules/follow-redirects/index.js	/^  CustomError.prototype.constructor = CustomError;$/;"	m	class:CustomError
+constructor	node_modules/node-fetch/lib/index.es.js	/^FetchError.prototype.constructor = FetchError;$/;"	m	class:FetchError
+constructor	node_modules/node-fetch/lib/index.js	/^FetchError.prototype.constructor = FetchError;$/;"	m	class:FetchError
+consumeBody	node_modules/node-fetch/lib/index.es.js	/^function consumeBody() {$/;"	c
+consumeBody	node_modules/node-fetch/lib/index.js	/^function consumeBody() {$/;"	c
+cookies	node_modules/axios/lib/adapters/xhr.js	/^var cookies = require('.\/..\/helpers\/cookies');$/;"	v
+create	node_modules/axios/lib/axios.js	/^axios.create = function create(instanceConfig) {$/;"	f
+createAggregator	node_modules/lodash._createaggregator/index.js	/^function createAggregator(setter, initializer) {$/;"	f
+createAggregator	node_modules/lodash.indexby/index.js	/^var createAggregator = require('lodash._createaggregator');$/;"	v
+createBaseEach	node_modules/lodash._baseeach/index.js	/^function createBaseEach(eachFunc, fromRight) {$/;"	f
+createBaseFor	node_modules/lodash._baseeach/index.js	/^function createBaseFor(fromRight) {$/;"	f
+createBaseFor	node_modules/lodash._basefor/index.js	/^function createBaseFor(fromRight) {$/;"	f
+createDebug	node_modules/debug/src/debug.js	/^function createDebug(namespace) {$/;"	f
+createError	node_modules/axios/lib/adapters/http.js	/^var createError = require('..\/core\/createError');$/;"	v
+createError	node_modules/axios/lib/adapters/xhr.js	/^var createError = require('..\/core\/createError');$/;"	v
+createError	node_modules/axios/lib/core/createError.js	/^module.exports = function createError(message, config, code, request, response) {$/;"	f
+createError	node_modules/axios/lib/core/settle.js	/^var createError = require('.\/createError');$/;"	v
+createErrorType	node_modules/follow-redirects/index.js	/^function createErrorType(code, defaultMessage) {$/;"	f
+createFind	node_modules/lodash.find/index.js	/^function createFind(eachFunc, fromRight) {$/;"	f
+createHandler	node_modules/nba/scripts/proxy.js	/^function createHandler (namespace) {$/;"	f
+createInstance	node_modules/axios/lib/axios.js	/^function createInstance(defaultConfig) {$/;"	f
+createObjectMapper	node_modules/lodash.mapkeys/index.js	/^function createObjectMapper(isMapKeys) {$/;"	f
+createUrlString	node_modules/nba/src/get-json.js	/^function createUrlString (_url, query) {$/;"	f
+createWritableStdioStream	node_modules/debug/src/node.js	/^function createWritableStdioStream (fd) {$/;"	f
+d	node_modules/ms/index.js	/^var d = h * 24;$/;"	v
+data	node_modules/nba-client-template/example-clients/simple-client.py	/^data = byteify(json.loads(open(path).read()))$/;"	v
+date	node_modules/nba/src/data.js	/^boxScore.defaults = { date: null, gameId: null };$/;"	p	class:boxScore.defaults
+date	node_modules/nba/src/data.js	/^leadTracker.defaults = { date: null, gameId: null, period: null };$/;"	p	class:leadTracker.defaults
+date	node_modules/nba/src/data.js	/^playByPlay.defaults = { date: null, gameId: null };$/;"	p	class:playByPlay.defaults
+date	node_modules/nba/src/data.js	/^previewArticle.defaults = { date: null, gameId: null };$/;"	p	class:previewArticle.defaults
+date	node_modules/nba/src/data.js	/^recapArticle.defaults = { date: null, gameId: null };$/;"	p	class:recapArticle.defaults
+date	node_modules/nba/src/data.js	/^scoreboard.defaults = { date: null };$/;"	p	class:scoreboard.defaults
+dateToYYYYMMDD	node_modules/nba/src/data.js	/^function dateToYYYYMMDD (date) {$/;"	f
+debug	node_modules/debug/src/debug.js	/^  function debug() {$/;"	f	function:createDebug
+debug	node_modules/follow-redirects/debug.js	/^  debug = function () { \/* *\/ };$/;"	f
+debug	node_modules/follow-redirects/debug.js	/^var debug;$/;"	v
+debug	node_modules/follow-redirects/index.js	/^var debug = require(".\/debug");$/;"	v
+decode	node_modules/punycode/punycode.js	/^	function decode(input) {$/;"	f
+defaults	node_modules/axios/lib/axios.js	/^var defaults = require('.\/defaults');$/;"	v
+defaults	node_modules/axios/lib/core/dispatchRequest.js	/^var defaults = require('..\/defaults');$/;"	v
+deprecatedMethod	node_modules/axios/lib/helpers/deprecatedMethod.js	/^module.exports = function deprecatedMethod(method, instead, docs) {$/;"	f
+digitToBasic	node_modules/punycode/punycode.js	/^	function digitToBasic(digit, flag) {$/;"	f
+disable	node_modules/debug/src/debug.js	/^function disable() {$/;"	f
+dispatchRequest	node_modules/axios/lib/core/Axios.js	/^var dispatchRequest = require('.\/dispatchRequest');$/;"	v
+dispatchRequest	node_modules/axios/lib/core/dispatchRequest.js	/^module.exports = function dispatchRequest(config) {$/;"	f
+disturbed	node_modules/node-fetch/lib/index.es.js	/^		disturbed: false,$/;"	p	class:Body.
+disturbed	node_modules/node-fetch/lib/index.js	/^		disturbed: false,$/;"	p	class:Body.
+documentItem	node_modules/nba-client-template/script/generate.js	/^function documentItem (key, data) {$/;"	f
+documentResponse	node_modules/nba-client-template/script/generate.js	/^function documentResponse (endpoint, data) {$/;"	f
+downcaseFirst	node_modules/nba/src/util/string.js	/^function downcaseFirst (str) {$/;"	f
+eject	node_modules/axios/lib/core/InterceptorManager.js	/^InterceptorManager.prototype.eject = function eject(id) {$/;"	m	class:InterceptorManager
+enable	node_modules/debug/src/debug.js	/^function enable(namespaces) {$/;"	f
+enabled	node_modules/debug/src/debug.js	/^function enabled(name) {$/;"	f
+encode	node_modules/axios/lib/helpers/buildURL.js	/^function encode(val) {$/;"	f
+encode	node_modules/punycode/punycode.js	/^	function encode(input) {$/;"	f
+end	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype.end = function (data, encoding, callback) {$/;"	m	class:RedirectableRequest
+endpoint	node_modules/nba/scripts/run-endpoint.js	/^var endpoint = process.argv[2];$/;"	v
+endpointMarkdown	node_modules/nba/scripts/generate-stats-docs.js	/^function endpointMarkdown ({methodName, defaults, responseShape}) {$/;"	f
+enhanceError	node_modules/axios/lib/adapters/http.js	/^var enhanceError = require('..\/core\/enhanceError');$/;"	v
+enhanceError	node_modules/axios/lib/core/createError.js	/^var enhanceError = require('.\/enhanceError');$/;"	v
+enhanceError	node_modules/axios/lib/core/enhanceError.js	/^module.exports = function enhanceError(error, config, code, request, response) {$/;"	f
+entry	node_modules/nba/webpack.config.js	/^  entry: ".\/src\/index.js",$/;"	p	class:module.exports
+equalArrays	node_modules/lodash._baseisequal/index.js	/^function equalArrays(array, other, equalFunc, customizer, isLoose, stackA, stackB) {$/;"	f
+equalByTag	node_modules/lodash._baseisequal/index.js	/^function equalByTag(object, other, tag) {$/;"	f
+equalObjects	node_modules/lodash._baseisequal/index.js	/^function equalObjects(object, other, equalFunc, customizer, isLoose, stackA, stackB) {$/;"	f
+error	node_modules/node-fetch/lib/index.es.js	/^		error: null$/;"	p	class:Body.
+error	node_modules/node-fetch/lib/index.js	/^		error: null$/;"	p	class:Body.
+error	node_modules/punycode/punycode.js	/^	function error(type) {$/;"	f
+error.toJSON	node_modules/axios/lib/core/enhanceError.js	/^  error.toJSON = function toJSON() {$/;"	f
+expect	node_modules/nba/test/unit/util/string.js	/^var expect = require("expect");$/;"	v
+exports	node_modules/querystring/test/index.js	/^exports['test basic'] = function(assert) {$/;"	f
+exports.formatters.O	node_modules/debug/src/node.js	/^exports.formatters.O = function(v) {$/;"	c
+exports.formatters.j	node_modules/debug/src/browser.js	/^exports.formatters.j = function(v) {$/;"	f
+exports.formatters.o	node_modules/debug/src/node.js	/^exports.formatters.o = function(v) {$/;"	c
+extend	node_modules/axios/lib/utils.js	/^  extend: extend,$/;"	p	class:module.exports
+extend	node_modules/axios/lib/utils.js	/^function extend(a, b, thisArg) {$/;"	f
+extendedFunction	node_modules/querystring/test/index.js	/^extendedFunction.prototype = {a: 'b'};$/;"	c
+extendedFunction	node_modules/querystring/test/index.js	/^var extendedFunction = function() {};$/;"	f
+fail	node_modules/nba/test/get-json-stub.js	/^  fail: jsonFailStub,$/;"	p	class:module.exports
+fd	node_modules/debug/src/node.js	/^var fd = parseInt(process.env.DEBUG_FD, 10) || 2;$/;"	v
+file	node_modules/url/url.js	/^      'file': true,$/;"	p
+file:	node_modules/url/url.js	/^      'file:': true$/;"	p
+findPlayer	node_modules/nba/src/index.js	/^function findPlayer (str) {$/;"	f
+findWhere	node_modules/lodash.findwhere/index.js	/^function findWhere(collection, source) {$/;"	f
+fmtLong	node_modules/ms/index.js	/^function fmtLong(ms) {$/;"	f
+fmtShort	node_modules/ms/index.js	/^function fmtShort(ms) {$/;"	f
+forEach	node_modules/axios/lib/core/InterceptorManager.js	/^InterceptorManager.prototype.forEach = function forEach(fn) {$/;"	m	class:InterceptorManager
+forEach	node_modules/axios/lib/utils.js	/^  forEach: forEach,$/;"	p	class:module.exports
+forEach	node_modules/axios/lib/utils.js	/^function forEach(obj, fn) {$/;"	f
+format	node_modules/url/url.js	/^  if (!(obj instanceof Url)) return Url.prototype.format.call(obj);$/;"	m
+format	node_modules/url/url.js	/^Url.prototype.format = function() {$/;"	m	class:Url
+formatArgs	node_modules/debug/src/browser.js	/^function formatArgs(args) {$/;"	f
+formatArgs	node_modules/debug/src/node.js	/^function formatArgs(args) {$/;"	f
+freeGlobal	node_modules/punycode/punycode.js	/^	var freeGlobal = typeof global == 'object' && global;$/;"	v
+freeModule	node_modules/punycode/punycode.js	/^	var freeModule = typeof module == 'object' && module &&$/;"	v
+ftp	node_modules/url/url.js	/^      'ftp': true,$/;"	p
+ftp:	node_modules/url/url.js	/^      'ftp:': true,$/;"	p
+func	node_modules/nba-client-template/example-clients/simple-client.py	/^  def func(params):$/;"	f	function:make_endpoint
+funcTag	node_modules/lodash._getnative/index.js	/^var funcTag = '[object Function]';$/;"	v
+funcTag	node_modules/lodash.get/index.js	/^var funcTag = '[object Function]',$/;"	v
+functionTemplate	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^var functionTemplate string = "func %s(params map[string]string) (resp *http.Response, err error) {\\n    return apiGet(\\"%s\\", params)\\n}"$/;"	v
+gameId	node_modules/nba/src/data.js	/^boxScore.defaults = { date: null, gameId: null };$/;"	p	class:boxScore.defaults
+gameId	node_modules/nba/src/data.js	/^leadTracker.defaults = { date: null, gameId: null, period: null };$/;"	p	class:leadTracker.defaults
+gameId	node_modules/nba/src/data.js	/^playByPlay.defaults = { date: null, gameId: null };$/;"	p	class:playByPlay.defaults
+gameId	node_modules/nba/src/data.js	/^previewArticle.defaults = { date: null, gameId: null };$/;"	p	class:previewArticle.defaults
+gameId	node_modules/nba/src/data.js	/^recapArticle.defaults = { date: null, gameId: null };$/;"	p	class:recapArticle.defaults
+general	node_modules/nba/src/transforms.js	/^function general (resp) {$/;"	f
+generateLeafShape	node_modules/nba/scripts/generate-stats-docs.js	/^function generateLeafShape (leaf) {$/;"	f
+generateResponseShape	node_modules/nba/scripts/generate-stats-docs.js	/^function generateResponseShape (contents) {$/;"	f
+getDefaultAdapter	node_modules/axios/lib/defaults.js	/^function getDefaultAdapter() {$/;"	f
+getEndpoint	node_modules/nba-client-template/script/generate.js	/^function getEndpoint (endpoint) {$/;"	f
+getJson	node_modules/nba/src/get-json.js	/^module.exports = function getJson (_url, query, _options = {}) {$/;"	f
+getMatchData	node_modules/lodash._basematches/index.js	/^function getMatchData(object) {$/;"	f
+getMergedValue	node_modules/axios/lib/core/mergeConfig.js	/^  function getMergedValue(target, source) {$/;"	f	function:module.exports
+getNative	node_modules/lodash.keys/index.js	/^var getNative = require('lodash._getnative'),$/;"	v
+getUri	node_modules/axios/lib/core/Axios.js	/^Axios.prototype.getUri = function getUri(config) {$/;"	m	class:Axios
+gopher	node_modules/url/url.js	/^      'gopher': true,$/;"	p
+gopher:	node_modules/url/url.js	/^      'gopher:': true,$/;"	p
+h	node_modules/ms/index.js	/^var h = m * 60;$/;"	v
+handleList	node_modules/nba-client-template/script/generate.js	/^function handleList (list) {$/;"	f
+handlePair	node_modules/nba-client-template/script/generate.js	/^function handlePair (key, value, depth) {$/;"	f
+handlePrimitive	node_modules/nba-client-template/script/generate.js	/^function handlePrimitive (key, val) {$/;"	f
+handleStruct	node_modules/nba-client-template/script/generate.js	/^function handleStruct (struct) {$/;"	f
+hasKey	node_modules/minimist/index.js	/^function hasKey (obj, keys) {$/;"	f
+hasOwnProperty	node_modules/lodash._baseisequal/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/lodash._getnative/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/lodash.invert/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/lodash.isarguments/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/lodash.isarray/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/lodash.keys/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/lodash.keysin/index.js	/^var hasOwnProperty = objectProto.hasOwnProperty;$/;"	v
+hasOwnProperty	node_modules/querystring/decode.js	/^  return Object.prototype.hasOwnProperty.call(obj, prop);$/;"	m	class:return
+hasOwnProperty	node_modules/querystring/decode.js	/^function hasOwnProperty(obj, prop) {$/;"	f
+hasUnderscoreOrHyphen	node_modules/nba/src/util/string.js	/^function hasUnderscoreOrHyphen (str) {$/;"	f
+hash	node_modules/url/url.js	/^  var hash = rest.indexOf('#');$/;"	v
+headers	node_modules/follow-redirects/index.js	/^      var responseDetails = { headers: response.headers };$/;"	p	class:var.responseDetails
+headers	node_modules/nba/src/stats.js	/^      headers: {$/;"	p	class:const
+homepageV2	node_modules/nba/src/stats.js	/^  homepageV2: general,$/;"	p	class:const
+host	node_modules/url/test.js	/^var emptyIsImportant = {'host': true, 'hostname': ''};$/;"	p	class:emptyIsImportant
+hostname	node_modules/url/test.js	/^var emptyIsImportant = {'host': true, 'hostname': ''};$/;"	p	class:emptyIsImportant
+http	node_modules/axios/lib/adapters/http.js	/^var http = require('http');$/;"	v
+http	node_modules/follow-redirects/index.js	/^var http = require("http");$/;"	v
+http	node_modules/node-fetch/lib/index.js	/^var http = require('http');$/;"	v
+http	node_modules/url/url.js	/^      'http': true,$/;"	p
+http:	node_modules/url/url.js	/^      'http:': true,$/;"	p
+http://example.com?	node_modules/url/test.js	/^  'http:\/\/example.com?' : {$/;"	p	class:formatTests
+httpAdapter	node_modules/axios/lib/adapters/http.js	/^module.exports = function httpAdapter(config) {$/;"	f
+httpFollow	node_modules/axios/lib/adapters/http.js	/^var httpFollow = require('follow-redirects').http;$/;"	v
+https	node_modules/axios/lib/adapters/http.js	/^var https = require('https');$/;"	v
+https	node_modules/follow-redirects/index.js	/^var https = require("https");$/;"	v
+https	node_modules/url/url.js	/^      'https': true,$/;"	p
+https:	node_modules/url/url.js	/^      'https:': true,$/;"	p
+httpsFollow	node_modules/axios/lib/adapters/http.js	/^var httpsFollow = require('follow-redirects').https;$/;"	v
+i	node_modules/nba/test/browser/sport-vu-browserified.js	/^(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){$/;"	v
+i	node_modules/nba/test/browser/stats-browserified.js	/^(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){$/;"	v
+identity	node_modules/lodash._bindcallback/index.js	/^function identity(value) {$/;"	f
+ignoreDuplicateOf	node_modules/axios/lib/helpers/parseHeaders.js	/^var ignoreDuplicateOf = [$/;"	v
+indexBy	node_modules/lodash.indexby/index.js	/^var indexBy = createAggregator(function(result, value, key) {$/;"	v
+init	node_modules/debug/src/node.js	/^function init (debug) {$/;"	f
+initialize	node_modules/nba-client-template/example-clients/simple-client.rb	/^    def initialize(info)$/;"	f	class:NbaClient
+initialize	node_modules/nba-client-template/example-clients/simple-client.rb	/^    def initialize(params)$/;"	f	class:QueryString
+inspectorLog	node_modules/debug/src/inspector-log.js	/^function inspectorLog() {$/;"	f
+interpolate	node_modules/nba/src/util/string.js	/^function interpolate (_str) {$/;"	f
+into	node_modules/nba/scripts/generate-stats-docs.js	/^Object.prototype.into = function (fn, ...args) { return fn(this, ...args); };$/;"	m	class:Object
+invert	node_modules/lodash.invert/index.js	/^function invert(object, multiValue, guard) {$/;"	f
+isAbsoluteURL	node_modules/axios/lib/core/buildFullPath.js	/^var isAbsoluteURL = require('..\/helpers\/isAbsoluteURL');$/;"	v
+isAbsoluteURL	node_modules/axios/lib/helpers/isAbsoluteURL.js	/^module.exports = function isAbsoluteURL(url) {$/;"	f
+isAllUpperCase	node_modules/nba/src/util/string.js	/^function isAllUpperCase (str) {$/;"	f
+isArguments	node_modules/lodash._baseflatten/index.js	/^var isArguments = require('lodash.isarguments'),$/;"	v
+isArguments	node_modules/lodash.isarguments/index.js	/^function isArguments(value) {$/;"	f
+isArguments	node_modules/lodash.keysin/index.js	/^var isArguments = require('lodash.isarguments'),$/;"	v
+isArray	node_modules/axios/lib/utils.js	/^  isArray: isArray,$/;"	p	class:module.exports
+isArray	node_modules/axios/lib/utils.js	/^function isArray(val) {$/;"	f
+isArray	node_modules/lodash._baseisequal/index.js	/^var isArray = require('lodash.isarray'),$/;"	v
+isArrayBuffer	node_modules/axios/lib/utils.js	/^  isArrayBuffer: isArrayBuffer,$/;"	p	class:module.exports
+isArrayBuffer	node_modules/axios/lib/utils.js	/^function isArrayBuffer(val) {$/;"	f
+isArrayBufferView	node_modules/axios/lib/utils.js	/^  isArrayBufferView: isArrayBufferView,$/;"	p	class:module.exports
+isArrayBufferView	node_modules/axios/lib/utils.js	/^function isArrayBufferView(val) {$/;"	f
+isArrayLike	node_modules/lodash._baseflatten/index.js	/^function isArrayLike(value) {$/;"	f
+isArrayLike	node_modules/lodash._isiterateecall/index.js	/^function isArrayLike(value) {$/;"	f
+isArrayLike	node_modules/lodash.isarguments/index.js	/^function isArrayLike(value) {$/;"	f
+isArrayLike	node_modules/lodash.keys/index.js	/^function isArrayLike(value) {$/;"	f
+isArrayLikeObject	node_modules/lodash.isarguments/index.js	/^function isArrayLikeObject(value) {$/;"	f
+isBlob	node_modules/axios/lib/utils.js	/^  isBlob: isBlob,$/;"	p	class:module.exports
+isBlob	node_modules/axios/lib/utils.js	/^function isBlob(val) {$/;"	f
+isBuffer	node_modules/axios/lib/utils.js	/^  isBuffer: isBuffer,$/;"	p	class:module.exports
+isBuffer	node_modules/axios/lib/utils.js	/^function isBuffer(val) {$/;"	f
+isCancel	node_modules/axios/lib/cancel/isCancel.js	/^module.exports = function isCancel(value) {$/;"	f
+isCancel	node_modules/axios/lib/core/dispatchRequest.js	/^var isCancel = require('..\/cancel\/isCancel');$/;"	v
+isDate	node_modules/axios/lib/utils.js	/^  isDate: isDate,$/;"	p	class:module.exports
+isDate	node_modules/axios/lib/utils.js	/^function isDate(val) {$/;"	f
+isFile	node_modules/axios/lib/utils.js	/^  isFile: isFile,$/;"	p	class:module.exports
+isFile	node_modules/axios/lib/utils.js	/^function isFile(val) {$/;"	f
+isFormData	node_modules/axios/lib/utils.js	/^  isFormData: isFormData,$/;"	p	class:module.exports
+isFormData	node_modules/axios/lib/utils.js	/^function isFormData(val) {$/;"	f
+isFunction	node_modules/axios/lib/utils.js	/^  isFunction: isFunction,$/;"	p	class:module.exports
+isFunction	node_modules/axios/lib/utils.js	/^function isFunction(val) {$/;"	f
+isFunction	node_modules/lodash.isarguments/index.js	/^function isFunction(value) {$/;"	f
+isHttps	node_modules/axios/lib/adapters/http.js	/^var isHttps = \/https:?\/;$/;"	v
+isIndex	node_modules/lodash._isiterateecall/index.js	/^function isIndex(value, length) {$/;"	f
+isIndex	node_modules/lodash.keys/index.js	/^function isIndex(value, length) {$/;"	f
+isIndex	node_modules/lodash.keysin/index.js	/^function isIndex(value, length) {$/;"	f
+isIterateeCall	node_modules/lodash._isiterateecall/index.js	/^function isIterateeCall(value, index, object) {$/;"	f
+isIterateeCall	node_modules/lodash.invert/index.js	/^var isIterateeCall = require('lodash._isiterateecall'),$/;"	v
+isLength	node_modules/lodash._baseeach/index.js	/^function isLength(value) {$/;"	f
+isLength	node_modules/lodash._baseflatten/index.js	/^function isLength(value) {$/;"	f
+isLength	node_modules/lodash._isiterateecall/index.js	/^function isLength(value) {$/;"	f
+isLength	node_modules/lodash.isarguments/index.js	/^function isLength(value) {$/;"	f
+isLength	node_modules/lodash.istypedarray/index.js	/^function isLength(value) {$/;"	f
+isLength	node_modules/lodash.keys/index.js	/^function isLength(value) {$/;"	f
+isLength	node_modules/lodash.keysin/index.js	/^function isLength(value) {$/;"	f
+isNull	node_modules/url/util.js	/^  isNull: function(arg) {$/;"	m	class:module.exports
+isNullOrUndefined	node_modules/url/util.js	/^  isNullOrUndefined: function(arg) {$/;"	m	class:module.exports
+isNumber	node_modules/axios/lib/utils.js	/^  isNumber: isNumber,$/;"	p	class:module.exports
+isNumber	node_modules/axios/lib/utils.js	/^function isNumber(val) {$/;"	f
+isNumber	node_modules/minimist/index.js	/^function isNumber (x) {$/;"	f
+isObject	node_modules/axios/lib/utils.js	/^  isObject: isObject,$/;"	p	class:module.exports
+isObject	node_modules/axios/lib/utils.js	/^function isObject(val) {$/;"	f
+isObject	node_modules/lodash._baseeach/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash._baseisequal/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash._baseismatch/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash._basematches/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash._isiterateecall/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash._pickbyarray/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash.isarguments/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash.keys/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash.keysin/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/lodash.pairs/index.js	/^function isObject(value) {$/;"	f
+isObject	node_modules/url/util.js	/^  isObject: function(arg) {$/;"	m	class:module.exports
+isObjectLike	node_modules/lodash._baseflatten/index.js	/^function isObjectLike(value) {$/;"	f
+isObjectLike	node_modules/lodash._baseisequal/index.js	/^function isObjectLike(value) {$/;"	f
+isObjectLike	node_modules/lodash._getnative/index.js	/^function isObjectLike(value) {$/;"	f
+isObjectLike	node_modules/lodash.isarguments/index.js	/^function isObjectLike(value) {$/;"	f
+isObjectLike	node_modules/lodash.isarray/index.js	/^function isObjectLike(value) {$/;"	f
+isObjectLike	node_modules/lodash.istypedarray/index.js	/^function isObjectLike(value) {$/;"	f
+isPlainObject	node_modules/axios/lib/utils.js	/^  isPlainObject: isPlainObject,$/;"	p	class:module.exports
+isPlainObject	node_modules/axios/lib/utils.js	/^function isPlainObject(val) {$/;"	f
+isStandardBrowserEnv	node_modules/axios/lib/utils.js	/^  isStandardBrowserEnv: isStandardBrowserEnv,$/;"	p	class:module.exports
+isStandardBrowserEnv	node_modules/axios/lib/utils.js	/^function isStandardBrowserEnv() {$/;"	f
+isStream	node_modules/axios/lib/utils.js	/^  isStream: isStream,$/;"	p	class:module.exports
+isStream	node_modules/axios/lib/utils.js	/^function isStream(val) {$/;"	f
+isStrictComparable	node_modules/lodash._basematches/index.js	/^function isStrictComparable(value) {$/;"	f
+isString	node_modules/axios/lib/utils.js	/^  isString: isString,$/;"	p	class:module.exports
+isString	node_modules/axios/lib/utils.js	/^function isString(val) {$/;"	f
+isString	node_modules/url/util.js	/^  isString: function(arg) {$/;"	m	class:module.exports
+isTypedArray	node_modules/lodash.istypedarray/index.js	/^function isTypedArray(value) {$/;"	f
+isURLSameOrigin	node_modules/axios/lib/adapters/xhr.js	/^var isURLSameOrigin = require('.\/..\/helpers\/isURLSameOrigin');$/;"	v
+isURLSearchParams	node_modules/axios/lib/utils.js	/^  isURLSearchParams: isURLSearchParams,$/;"	p	class:module.exports
+isURLSearchParams	node_modules/axios/lib/utils.js	/^function isURLSearchParams(val) {$/;"	f
+isUndefined	node_modules/axios/lib/utils.js	/^  isUndefined: isUndefined,$/;"	p	class:module.exports
+isUndefined	node_modules/axios/lib/utils.js	/^function isUndefined(val) {$/;"	f
+javascript	node_modules/url/url.js	/^      'javascript': true,$/;"	p
+javascript:	node_modules/url/url.js	/^      'javascript:': true$/;"	p
+jsify	node_modules/nba/src/util/string.js	/^function jsify (str) {$/;"	f
+jsonFailStub	node_modules/nba/test/get-json-stub.js	/^function jsonFailStub (url, settings, callback) {$/;"	f
+jsonStub	node_modules/nba/test/get-json-stub.js	/^function jsonStub (url, settings) {$/;"	f
+jsonStub	node_modules/nba/test/unit/stats.js	/^function jsonStub (url, settings) {$/;"	f
+key	node_modules/minimist/index.js	/^        var key = keys[keys.length - 1];$/;"	v
+keys	node_modules/lodash._baseeach/index.js	/^var keys = require('lodash.keys');$/;"	v
+keys	node_modules/lodash.pairs/index.js	/^var keys = require('lodash.keys');$/;"	v
+keysIn	node_modules/lodash.keys/index.js	/^function keysIn(object) {$/;"	f
+keysIn	node_modules/lodash.keysin/index.js	/^function keysIn(object) {$/;"	f
+lastCalledWithOption	node_modules/nba/test/unit/stats.js	/^function lastCalledWithOption (prop, val) {$/;"	f
+lastUrlEq	node_modules/nba/test/unit/stats.js	/^function lastUrlEq (url) {$/;"	f
+lineups	node_modules/nba/src/stats.js	/^  lineups: lineups,$/;"	p	class:const
+lineups	node_modules/nba/src/transforms.js	/^function lineups (resp) {$/;"	f
+load	node_modules/debug/src/browser.js	/^function load() {$/;"	f
+load	node_modules/debug/src/node.js	/^function load() {$/;"	f
+localstorage	node_modules/debug/src/browser.js	/^function localstorage() {$/;"	f
+log	node_modules/debug/src/browser.js	/^function log() {$/;"	f
+log	node_modules/debug/src/node.js	/^function log() {$/;"	f
+log	node_modules/nba/test/integration/data.js	/^function log (...args) {$/;"	f
+m	node_modules/ms/index.js	/^var m = s * 60;$/;"	v
+main	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^func main() {$/;"	f
+main	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^package main$/;"	p
+main	node_modules/nba-client-template/example-clients/golang/usage.go	/^func main() {$/;"	f
+main	node_modules/nba-client-template/example-clients/golang/usage.go	/^package main$/;"	p
+makeLineup	node_modules/nba/src/transforms.js	/^  function makeLineup (lu) {$/;"	f	function:lineups
+makeMethodString	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^func makeMethodString(ep Endpoint) string {$/;"	f
+makeSportVuClient	node_modules/nba/src/sport-vu.js	/^function makeSportVuClient () {$/;"	f
+makeSportVuMethod	node_modules/nba/src/sport-vu.js	/^function makeSportVuMethod (endpoint) {$/;"	f
+makeStatsClient	node_modules/nba/src/stats.js	/^function makeStatsClient (transport) {$/;"	f
+makeStatsMethod	node_modules/nba/src/stats.js	/^function makeStatsMethod (endpoint, transport) {$/;"	f
+makeSynergyClient	node_modules/nba/src/synergy.js	/^function makeSynergyClient (transport) {$/;"	f
+makeSynergyMethod	node_modules/nba/src/synergy.js	/^function makeSynergyMethod (endpoint, transport) {$/;"	f
+make_endpoint	node_modules/nba-client-template/example-clients/simple-client.py	/^def make_endpoint(name, endpoint):$/;"	f
+map	node_modules/punycode/punycode.js	/^	function map(array, fn) {$/;"	f
+mapDomain	node_modules/punycode/punycode.js	/^	function mapDomain(string, fn) {$/;"	f
+maxBodyLength	node_modules/follow-redirects/index.js	/^    maxBodyLength: 10 * 1024 * 1024,$/;"	p	class:wrap.exports
+maxRedirects	node_modules/follow-redirects/index.js	/^    maxRedirects: 21,$/;"	p	class:wrap.exports
+merge	node_modules/axios/lib/utils.js	/^  merge: merge,$/;"	p	class:module.exports
+merge	node_modules/axios/lib/utils.js	/^function merge(\/* obj1, obj2, obj3, ... *\/) {$/;"	f
+mergeCollections	node_modules/nba/src/util/merge-collections.js	/^module.exports = function mergeCollections (idProp, a, b) {$/;"	f
+mergeConfig	node_modules/axios/lib/axios.js	/^var mergeConfig = require('.\/core\/mergeConfig');$/;"	v
+mergeConfig	node_modules/axios/lib/core/Axios.js	/^var mergeConfig = require('.\/mergeConfig');$/;"	v
+mergeConfig	node_modules/axios/lib/core/mergeConfig.js	/^module.exports = function mergeConfig(config1, config2) {$/;"	f
+mergeDeepProperties	node_modules/axios/lib/core/mergeConfig.js	/^  function mergeDeepProperties(prop) {$/;"	f	function:module.exports
+module.exports	node_modules/axios/lib/adapters/http.js	/^module.exports = function httpAdapter(config) {$/;"	f
+module.exports	node_modules/axios/lib/adapters/xhr.js	/^module.exports = function xhrAdapter(config) {$/;"	f
+module.exports	node_modules/axios/lib/cancel/isCancel.js	/^module.exports = function isCancel(value) {$/;"	f
+module.exports	node_modules/axios/lib/core/buildFullPath.js	/^module.exports = function buildFullPath(baseURL, requestedURL) {$/;"	f
+module.exports	node_modules/axios/lib/core/createError.js	/^module.exports = function createError(message, config, code, request, response) {$/;"	f
+module.exports	node_modules/axios/lib/core/dispatchRequest.js	/^module.exports = function dispatchRequest(config) {$/;"	f
+module.exports	node_modules/axios/lib/core/enhanceError.js	/^module.exports = function enhanceError(error, config, code, request, response) {$/;"	f
+module.exports	node_modules/axios/lib/core/mergeConfig.js	/^module.exports = function mergeConfig(config1, config2) {$/;"	f
+module.exports	node_modules/axios/lib/core/settle.js	/^module.exports = function settle(resolve, reject, response) {$/;"	f
+module.exports	node_modules/axios/lib/core/transformData.js	/^module.exports = function transformData(data, headers, fns) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/bind.js	/^module.exports = function bind(fn, thisArg) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/buildURL.js	/^module.exports = function buildURL(url, params, paramsSerializer) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/combineURLs.js	/^module.exports = function combineURLs(baseURL, relativeURL) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/deprecatedMethod.js	/^module.exports = function deprecatedMethod(method, instead, docs) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/isAbsoluteURL.js	/^module.exports = function isAbsoluteURL(url) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/normalizeHeaderName.js	/^module.exports = function normalizeHeaderName(headers, normalizedName) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/parseHeaders.js	/^module.exports = function parseHeaders(headers) {$/;"	f
+module.exports	node_modules/axios/lib/helpers/spread.js	/^module.exports = function spread(callback) {$/;"	f
+module.exports	node_modules/debug/karma.conf.js	/^module.exports = function(config) {$/;"	f
+module.exports	node_modules/minimist/index.js	/^module.exports = function (args, opts) {$/;"	f
+module.exports	node_modules/ms/index.js	/^module.exports = function(val, options) {$/;"	f
+module.exports	node_modules/nba/src/get-json.js	/^module.exports = function getJson (_url, query, _options = {}) {$/;"	f
+module.exports	node_modules/nba/src/util/blank.js	/^module.exports = function blank (obj) {$/;"	f
+module.exports	node_modules/nba/src/util/collectify.js	/^module.exports = function collectify (headers, rows) {$/;"	f
+module.exports	node_modules/nba/src/util/merge-collections.js	/^module.exports = function mergeCollections (idProp, a, b) {$/;"	f
+module.exports	node_modules/nba/src/util/translate-keys.js	/^module.exports = function translateKeys (translationMap, target) {$/;"	f
+module.exports	node_modules/nba/test/nba-api-spy.js	/^module.exports = function (...args) {$/;"	f
+module.exports	node_modules/querystring/decode.js	/^module.exports = function(qs, sep, eq, options) {$/;"	f
+module.exports	node_modules/querystring/encode.js	/^module.exports = function(obj, sep, eq, name) {$/;"	f
+n	node_modules/axios/dist/axios.min.js	/^!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.axios=t():e.axios=t()}(this,function(){return function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={exports:{},id:r,loaded:!1};return e[r].call(o.exports,o,o.exports,t),o.loaded=!0,o.exports}var n={};return t.m=e,t.c=n,t.p="",t(0)}([function(e,t,n){e.exports=n(1)},function(e,t,n){"use strict";function r(e){var t=new i(e),n=s(i.prototype.request,t);return o.extend(n,i.prototype,t),o.extend(n,t),n}var o=n(2),s=n(3),i=n(4),a=n(22),u=n(10),c=r(u);c.Axios=i,c.create=function(e){return r(a(c.defaults,e))},c.Cancel=n(23),c.CancelToken=n(24),c.isCancel=n(9),c.all=function(e){return Promise.all(e)},c.spread=n(25),e.exports=c,e.exports.default=c},function(e,t,n){"use strict";function r(e){return"[object Array]"===R.call(e)}function o(e){return"undefined"==typeof e}function s(e){return null!==e&&!o(e)&&null!==e.constructor&&!o(e.constructor)&&"function"==typeof e.constructor.isBuffer&&e.constructor.isBuffer(e)}function i(e){return"[object ArrayBuffer]"===R.call(e)}function a(e){return"undefined"!=typeof FormData&&e instanceof FormData}function u(e){var t;return t="undefined"!=typeof ArrayBuffer&&ArrayBuffer.isView?ArrayBuffer.isView(e):e&&e.buffer&&e.buffer instanceof ArrayBuffer}function c(e){return"string"==typeof e}function f(e){return"number"==typeof e}function p(e){return null!==e&&"object"==typeof e}function d(e){if("[object Object]"!==R.call(e))return!1;var t=Object.getPrototypeOf(e);return null===t||t===Object.prototype}function l(e){return"[object Date]"===R.call(e)}function h(e){return"[object File]"===R.call(e)}function m(e){return"[object Blob]"===R.call(e)}function y(e){return"[object Function]"===R.call(e)}function g(e){return p(e)&&y(e.pipe)}function v(e){return"undefined"!=typeof URLSearchParams&&e instanceof URLSearchParams}function x(e){return e.replace(\/^\\s*\/,"").replace(\/\\s*$\/,"")}function w(){return("undefined"==typeof navigator||"ReactNative"!==navigator.product&&"NativeScript"!==navigator.product&&"NS"!==navigator.product)&&("undefined"!=typeof window&&"undefined"!=typeof document)}function b(e,t){if(null!==e&&"undefined"!=typeof e)if("object"!=typeof e&&(e=[e]),r(e))for(var n=0,o=e.length;n<o;n++)t.call(null,e[n],n,e);else for(var s in e)Object.prototype.hasOwnProperty.call(e,s)&&t.call(null,e[s],s,e)}function E(){function e(e,n){d(t[n])&&d(e)?t[n]=E(t[n],e):d(e)?t[n]=E({},e):r(e)?t[n]=e.slice():t[n]=e}for(var t={},n=0,o=arguments.length;n<o;n++)b(arguments[n],e);return t}function C(e,t,n){return b(t,function(t,r){n&&"function"==typeof t?e[r]=S(t,n):e[r]=t}),e}function j(e){return 65279===e.charCodeAt(0)&&(e=e.slice(1)),e}var S=n(3),R=Object.prototype.toString;e.exports={isArray:r,isArrayBuffer:i,isBuffer:s,isFormData:a,isArrayBufferView:u,isString:c,isNumber:f,isObject:p,isPlainObject:d,isUndefined:o,isDate:l,isFile:h,isBlob:m,isFunction:y,isStream:g,isURLSearchParams:v,isStandardBrowserEnv:w,forEach:b,merge:E,extend:C,trim:x,stripBOM:j}},function(e,t){"use strict";e.exports=function(e,t){return function(){for(var n=new Array(arguments.length),r=0;r<n.length;r++)n[r]=arguments[r];return e.apply(t,n)}}},function(e,t,n){"use strict";function r(e){this.defaults=e,this.interceptors={request:new i,response:new i}}var o=n(2),s=n(5),i=n(6),a=n(7),u=n(22);r.prototype.request=function(e){"string"==typeof e?(e=arguments[1]||{},e.url=arguments[0]):e=e||{},e=u(this.defaults,e),e.method?e.method=e.method.toLowerCase():this.defaults.method?e.method=this.defaults.method.toLowerCase():e.method="get";var t=[a,void 0],n=Promise.resolve(e);for(this.interceptors.request.forEach(function(e){t.unshift(e.fulfilled,e.rejected)}),this.interceptors.response.forEach(function(e){t.push(e.fulfilled,e.rejected)});t.length;)n=n.then(t.shift(),t.shift());return n},r.prototype.getUri=function(e){return e=u(this.defaults,e),s(e.url,e.params,e.paramsSerializer).replace(\/^\\?\/,"")},o.forEach(["delete","get","head","options"],function(e){r.prototype[e]=function(t,n){return this.request(u(n||{},{method:e,url:t,data:(n||{}).data}))}}),o.forEach(["post","put","patch"],function(e){r.prototype[e]=function(t,n,r){return this.request(u(r||{},{method:e,url:t,data:n}))}}),e.exports=r},function(e,t,n){"use strict";function r(e){return encodeURIComponent(e).replace(\/%3A\/gi,":").replace(\/%24\/g,"$").replace(\/%2C\/gi,",").replace(\/%20\/g,"+").replace(\/%5B\/gi,"[").replace(\/%5D\/gi,"]")}var o=n(2);e.exports=function(e,t,n){if(!t)return e;var s;if(n)s=n(t);else if(o.isURLSearchParams(t))s=t.toString();else{var i=[];o.forEach(t,function(e,t){null!==e&&"undefined"!=typeof e&&(o.isArray(e)?t+="[]":e=[e],o.forEach(e,function(e){o.isDate(e)?e=e.toISOString():o.isObject(e)&&(e=JSON.stringify(e)),i.push(r(t)+"="+r(e))}))}),s=i.join("&")}if(s){var a=e.indexOf("#");a!==-1&&(e=e.slice(0,a)),e+=(e.indexOf("?")===-1?"?":"&")+s}return e}},function(e,t,n){"use strict";function r(){this.handlers=[]}var o=n(2);r.prototype.use=function(e,t){return this.handlers.push({fulfilled:e,rejected:t}),this.handlers.length-1},r.prototype.eject=function(e){this.handlers[e]&&(this.handlers[e]=null)},r.prototype.forEach=function(e){o.forEach(this.handlers,function(t){null!==t&&e(t)})},e.exports=r},function(e,t,n){"use strict";function r(e){e.cancelToken&&e.cancelToken.throwIfRequested()}var o=n(2),s=n(8),i=n(9),a=n(10);e.exports=function(e){r(e),e.headers=e.headers||{},e.data=s(e.data,e.headers,e.transformRequest),e.headers=o.merge(e.headers.common||{},e.headers[e.method]||{},e.headers),o.forEach(["delete","get","head","post","put","patch","common"],function(t){delete e.headers[t]});var t=e.adapter||a.adapter;return t(e).then(function(t){return r(e),t.data=s(t.data,t.headers,e.transformResponse),t},function(t){return i(t)||(r(e),t&&t.response&&(t.response.data=s(t.response.data,t.response.headers,e.transformResponse))),Promise.reject(t)})}},function(e,t,n){"use strict";var r=n(2);e.exports=function(e,t,n){return r.forEach(n,function(n){e=n(e,t)}),e}},function(e,t){"use strict";e.exports=function(e){return!(!e||!e.__CANCEL__)}},function(e,t,n){"use strict";function r(e,t){!s.isUndefined(e)&&s.isUndefined(e["Content-Type"])&&(e["Content-Type"]=t)}function o(){var e;return"undefined"!=typeof XMLHttpRequest?e=n(12):"undefined"!=typeof process&&"[object process]"===Object.prototype.toString.call(process)&&(e=n(12)),e}var s=n(2),i=n(11),a={"Content-Type":"application\/x-www-form-urlencoded"},u={adapter:o(),transformRequest:[function(e,t){return i(t,"Accept"),i(t,"Content-Type"),s.isFormData(e)||s.isArrayBuffer(e)||s.isBuffer(e)||s.isStream(e)||s.isFile(e)||s.isBlob(e)?e:s.isArrayBufferView(e)?e.buffer:s.isURLSearchParams(e)?(r(t,"application\/x-www-form-urlencoded;charset=utf-8"),e.toString()):s.isObject(e)?(r(t,"application\/json;charset=utf-8"),JSON.stringify(e)):e}],transformResponse:[function(e){if("string"==typeof e)try{e=JSON.parse(e)}catch(e){}return e}],timeout:0,xsrfCookieName:"XSRF-TOKEN",xsrfHeaderName:"X-XSRF-TOKEN",maxContentLength:-1,maxBodyLength:-1,validateStatus:function(e){return e>=200&&e<300}};u.headers={common:{Accept:"application\/json, text\/plain, *\/*"}},s.forEach(["delete","get","head"],function(e){u.headers[e]={}}),s.forEach(["post","put","patch"],function(e){u.headers[e]=s.merge(a)}),e.exports=u},function(e,t,n){"use strict";var r=n(2);e.exports=function(e,t){r.forEach(e,function(n,r){r!==t&&r.toUpperCase()===t.toUpperCase()&&(e[t]=n,delete e[r])})}},function(e,t,n){"use strict";var r=n(2),o=n(13),s=n(16),i=n(5),a=n(17),u=n(20),c=n(21),f=n(14);e.exports=function(e){return new Promise(function(t,n){var p=e.data,d=e.headers;r.isFormData(p)&&delete d["Content-Type"];var l=new XMLHttpRequest;if(e.auth){var h=e.auth.username||"",m=e.auth.password?unescape(encodeURIComponent(e.auth.password)):"";d.Authorization="Basic "+btoa(h+":"+m)}var y=a(e.baseURL,e.url);if(l.open(e.method.toUpperCase(),i(y,e.params,e.paramsSerializer),!0),l.timeout=e.timeout,l.onreadystatechange=function(){if(l&&4===l.readyState&&(0!==l.status||l.responseURL&&0===l.responseURL.indexOf("file:"))){var r="getAllResponseHeaders"in l?u(l.getAllResponseHeaders()):null,s=e.responseType&&"text"!==e.responseType?l.response:l.responseText,i={data:s,status:l.status,statusText:l.statusText,headers:r,config:e,request:l};o(t,n,i),l=null}},l.onabort=function(){l&&(n(f("Request aborted",e,"ECONNABORTED",l)),l=null)},l.onerror=function(){n(f("Network Error",e,null,l)),l=null},l.ontimeout=function(){var t="timeout of "+e.timeout+"ms exceeded";e.timeoutErrorMessage&&(t=e.timeoutErrorMessage),n(f(t,e,"ECONNABORTED",l)),l=null},r.isStandardBrowserEnv()){var g=(e.withCredentials||c(y))&&e.xsrfCookieName?s.read(e.xsrfCookieName):void 0;g&&(d[e.xsrfHeaderName]=g)}if("setRequestHeader"in l&&r.forEach(d,function(e,t){"undefined"==typeof p&&"content-type"===t.toLowerCase()?delete d[t]:l.setRequestHeader(t,e)}),r.isUndefined(e.withCredentials)||(l.withCredentials=!!e.withCredentials),e.responseType)try{l.responseType=e.responseType}catch(t){if("json"!==e.responseType)throw t}"function"==typeof e.onDownloadProgress&&l.addEventListener("progress",e.onDownloadProgress),"function"==typeof e.onUploadProgress&&l.upload&&l.upload.addEventListener("progress",e.onUploadProgress),e.cancelToken&&e.cancelToken.promise.then(function(e){l&&(l.abort(),n(e),l=null)}),p||(p=null),l.send(p)})}},function(e,t,n){"use strict";var r=n(14);e.exports=function(e,t,n){var o=n.config.validateStatus;n.status&&o&&!o(n.status)?t(r("Request failed with status code "+n.status,n.config,null,n.request,n)):e(n)}},function(e,t,n){"use strict";var r=n(15);e.exports=function(e,t,n,o,s){var i=new Error(e);return r(i,t,n,o,s)}},function(e,t){"use strict";e.exports=function(e,t,n,r,o){return e.config=t,n&&(e.code=n),e.request=r,e.response=o,e.isAxiosError=!0,e.toJSON=function(){return{message:this.message,name:this.name,description:this.description,number:this.number,fileName:this.fileName,lineNumber:this.lineNumber,columnNumber:this.columnNumber,stack:this.stack,config:this.config,code:this.code}},e}},function(e,t,n){"use strict";var r=n(2);e.exports=r.isStandardBrowserEnv()?function(){return{write:function(e,t,n,o,s,i){var a=[];a.push(e+"="+encodeURIComponent(t)),r.isNumber(n)&&a.push("expires="+new Date(n).toGMTString()),r.isString(o)&&a.push("path="+o),r.isString(s)&&a.push("domain="+s),i===!0&&a.push("secure"),document.cookie=a.join("; ")},read:function(e){var t=document.cookie.match(new RegExp("(^|;\\\\s*)("+e+")=([^;]*)"));return t?decodeURIComponent(t[3]):null},remove:function(e){this.write(e,"",Date.now()-864e5)}}}():function(){return{write:function(){},read:function(){return null},remove:function(){}}}()},function(e,t,n){"use strict";var r=n(18),o=n(19);e.exports=function(e,t){return e&&!r(t)?o(e,t):t}},function(e,t){"use strict";e.exports=function(e){return\/^([a-z][a-z\\d\\+\\-\\.]*:)?\\\/\\\/\/i.test(e)}},function(e,t){"use strict";e.exports=function(e,t){return t?e.replace(\/\\\/+$\/,"")+"\/"+t.replace(\/^\\\/+\/,""):e}},function(e,t,n){"use strict";var r=n(2),o=["age","authorization","content-length","content-type","etag","expires","from","host","if-modified-since","if-unmodified-since","last-modified","location","max-forwards","proxy-authorization","referer","retry-after","user-agent"];e.exports=function(e){var t,n,s,i={};return e?(r.forEach(e.split("\\n"),function(e){if(s=e.indexOf(":"),t=r.trim(e.substr(0,s)).toLowerCase(),n=r.trim(e.substr(s+1)),t){if(i[t]&&o.indexOf(t)>=0)return;"set-cookie"===t?i[t]=(i[t]?i[t]:[]).concat([n]):i[t]=i[t]?i[t]+", "+n:n}}),i):i}},function(e,t,n){"use strict";var r=n(2);e.exports=r.isStandardBrowserEnv()?function(){function e(e){var t=e;return n&&(o.setAttribute("href",t),t=o.href),o.setAttribute("href",t),{href:o.href,protocol:o.protocol?o.protocol.replace(\/:$\/,""):"",host:o.host,search:o.search?o.search.replace(\/^\\?\/,""):"",hash:o.hash?o.hash.replace(\/^#\/,""):"",hostname:o.hostname,port:o.port,pathname:"\/"===o.pathname.charAt(0)?o.pathname:"\/"+o.pathname}}var t,n=\/(msie|trident)\/i.test(navigator.userAgent),o=document.createElement("a");return t=e(window.location.href),function(n){var o=r.isString(n)?e(n):n;return o.protocol===t.protocol&&o.host===t.host}}():function(){return function(){return!0}}()},function(e,t,n){"use strict";var r=n(2);e.exports=function(e,t){function n(e,t){return r.isPlainObject(e)&&r.isPlainObject(t)?r.merge(e,t):r.isPlainObject(t)?r.merge({},t):r.isArray(t)?t.slice():t}function o(o){r.isUndefined(t[o])?r.isUndefined(e[o])||(s[o]=n(void 0,e[o])):s[o]=n(e[o],t[o])}t=t||{};var s={},i=["url","method","data"],a=["headers","auth","proxy","params"],u=["baseURL","transformRequest","transformResponse","paramsSerializer","timeout","timeoutMessage","withCredentials","adapter","responseType","xsrfCookieName","xsrfHeaderName","onUploadProgress","onDownloadProgress","decompress","maxContentLength","maxBodyLength","maxRedirects","transport","httpAgent","httpsAgent","cancelToken","socketPath","responseEncoding"],c=["validateStatus"];r.forEach(i,function(e){r.isUndefined(t[e])||(s[e]=n(void 0,t[e]))}),r.forEach(a,o),r.forEach(u,function(o){r.isUndefined(t[o])?r.isUndefined(e[o])||(s[o]=n(void 0,e[o])):s[o]=n(void 0,t[o])}),r.forEach(c,function(r){r in t?s[r]=n(e[r],t[r]):r in e&&(s[r]=n(void 0,e[r]))});var f=i.concat(a).concat(u).concat(c),p=Object.keys(e).concat(Object.keys(t)).filter(function(e){return f.indexOf(e)===-1});return r.forEach(p,o),s}},function(e,t){"use strict";function n(e){this.message=e}n.prototype.toString=function(){return"Cancel"+(this.message?": "+this.message:"")},n.prototype.__CANCEL__=!0,e.exports=n},function(e,t,n){"use strict";function r(e){if("function"!=typeof e)throw new TypeError("executor must be a function.");var t;this.promise=new Promise(function(e){t=e});var n=this;e(function(e){n.reason||(n.reason=new o(e),t(n.reason))})}var o=n(23);r.prototype.throwIfRequested=function(){if(this.reason)throw this.reason},r.source=function(){var e,t=new r(function(t){e=t});return{token:t,cancel:e}},e.exports=r},function(e,t){"use strict";e.exports=function(e){return function(t){return e.apply(null,t)}}}])});$/;"	v
+name	node_modules/follow-redirects/index.js	/^  CustomError.prototype.name = "Error [" + code + "]";$/;"	m	class:CustomError
+name	node_modules/node-fetch/lib/index.es.js	/^FetchError.prototype.name = 'FetchError';$/;"	m	class:FetchError
+name	node_modules/node-fetch/lib/index.js	/^FetchError.prototype.name = 'FetchError';$/;"	m	class:FetchError
+nativeKeys	node_modules/lodash.keys/index.js	/^var nativeKeys = getNative(Object, 'keys');$/;"	v
+nativeMax	node_modules/lodash.restparam/index.js	/^var nativeMax = Math.max;$/;"	v
+nba	node_modules/nba-client-template/example-clients/golang/client/api.go	/^package nba$/;"	p
+nba	node_modules/nba-client-template/example-clients/golang/client/client.go	/^package nba$/;"	p
+nba	node_modules/nba/scripts/players.js	/^var nba = require("..\/src");$/;"	v
+nba	node_modules/nba/scripts/run-endpoint.js	/^var nba = require("..\/");$/;"	v
+noop	node_modules/follow-redirects/index.js	/^function noop() { \/* empty *\/ }$/;"	f
+normalizeHeaderName	node_modules/axios/lib/defaults.js	/^var normalizeHeaderName = require('.\/helpers\/normalizeHeaderName');$/;"	v
+normalizeHeaderName	node_modules/axios/lib/helpers/normalizeHeaderName.js	/^module.exports = function normalizeHeaderName(headers, normalizedName) {$/;"	f
+notFlags	node_modules/minimist/index.js	/^    var notFlags = [];$/;"	v
+objToString	node_modules/lodash._baseisequal/index.js	/^var objToString = objectProto.toString;$/;"	v
+objToString	node_modules/lodash._getnative/index.js	/^var objToString = objectProto.toString;$/;"	v
+objToString	node_modules/lodash.isarray/index.js	/^var objToString = objectProto.toString;$/;"	v
+objectResponseShape	node_modules/nba/scripts/generate-stats-docs.js	/^function objectResponseShape (obj) {$/;"	f
+objectToString	node_modules/lodash.isarguments/index.js	/^var objectToString = objectProto.toString;$/;"	v
+objectToString	node_modules/lodash.istypedarray/index.js	/^var objectToString = objectProto.toString;$/;"	v
+onto	node_modules/nba/scripts/generate-stats-docs.js	/^Object.prototype.onto = function (fn, ...args) { return fn(...args, this); };$/;"	m	class:Object
+optionPosition	node_modules/nba/test/nba-api-spy.js	/^var optionPosition = 1;$/;"	v
+output	node_modules/nba/webpack.config.js	/^  output: {$/;"	p	class:module.exports
+pairs	node_modules/lodash.pairs/index.js	/^function pairs(object) {$/;"	f
+parameters	node_modules/nba-client-template/example-clients/simple-client.py	/^parameters = {}$/;"	v
+parse	node_modules/minimist/test/all_bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/dash.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/default_bool.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/dotted.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/kv_short.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/long.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/num.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/parse.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/parse_modified.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/proto.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/short.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/stop_early.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/unknown.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/minimist/test/whitespace.js	/^var parse = require('..\/');$/;"	v
+parse	node_modules/ms/index.js	/^function parse(str) {$/;"	f
+parse	node_modules/url/url.js	/^Url.prototype.parse = function(url, parseQueryString, slashesDenoteHost) {$/;"	m	class:Url
+parseHeaders	node_modules/axios/lib/adapters/xhr.js	/^var parseHeaders = require('.\/..\/helpers\/parseHeaders');$/;"	v
+parseHeaders	node_modules/axios/lib/helpers/parseHeaders.js	/^module.exports = function parseHeaders(headers) {$/;"	f
+parseHost	node_modules/url/url.js	/^Url.prototype.parseHost = function() {$/;"	m	class:Url
+parserOptions	node_modules/nba/.eslintrc.js	/^  "parserOptions": {$/;"	p	class:module.exports
+path	node_modules/nba-client-template/example-clients/simple-client.py	/^path = os.path.join(os.path.dirname(__file__), '..\/nba.json')$/;"	v
+path	node_modules/nba/scripts/players.js	/^var path = require("path");$/;"	v
+path	node_modules/nba/scripts/teams.js	/^var path = require("path");$/;"	v
+period	node_modules/nba/src/data.js	/^leadTracker.defaults = { date: null, gameId: null, period: null };$/;"	p	class:leadTracker.defaults
+pick	node_modules/lodash.pick/index.js	/^var pick = restParam(function(object, props) {$/;"	v
+pickByArray	node_modules/lodash._pickbyarray/index.js	/^function pickByArray(object, props) {$/;"	f
+pickByCallback	node_modules/lodash._pickbycallback/index.js	/^function pickByCallback(object, predicate) {$/;"	f
+pkg	node_modules/axios/lib/adapters/http.js	/^var pkg = require('.\/..\/..\/package.json');$/;"	v
+playByPlay	node_modules/nba/src/stats.js	/^  playByPlay: general,$/;"	p	class:const
+playerClutch	node_modules/nba/src/stats.js	/^  playerClutch: general,$/;"	p	class:const
+playerCompare	node_modules/nba/src/stats.js	/^  playerCompare: general,$/;"	p	class:const
+playerIdFromName	node_modules/nba/src/index.js	/^function playerIdFromName (name) {$/;"	f
+playerInfo	node_modules/nba/src/stats.js	/^  playerInfo: general,$/;"	p	class:const
+playerProfile	node_modules/nba/src/stats.js	/^  playerProfile:  general,$/;"	p	class:const
+playerShooting	node_modules/nba/src/stats.js	/^  playerShooting: general,$/;"	p	class:const
+playerSplits	node_modules/nba/src/stats.js	/^  playerSplits: general,$/;"	p	class:const
+playerStats	node_modules/nba/src/stats.js	/^  playerStats: general,$/;"	p	class:const
+playerTracking	node_modules/nba/src/stats.js	/^  playerTracking: general,$/;"	p	class:const
+players	node_modules/nba/src/transforms.js	/^function players (resp) {$/;"	f
+playersInfo	node_modules/nba/src/stats.js	/^  playersInfo: players,$/;"	p	class:const
+plural	node_modules/ms/index.js	/^function plural(ms, n, name) {$/;"	f
+prevTime	node_modules/debug/src/debug.js	/^var prevTime;$/;"	v
+propertyIsEnumerable	node_modules/lodash.isarguments/index.js	/^var propertyIsEnumerable = objectProto.propertyIsEnumerable;$/;"	v
+props	node_modules/nba/scripts/run-endpoint.js	/^var props = process.argv.slice(3).reduce(function (o, s) {$/;"	v
+protocol	node_modules/follow-redirects/index.js	/^    protocol: urlObject.protocol,$/;"	p	class:urlToOptions.options
+punycode	node_modules/url/url.js	/^var punycode = require('punycode');$/;"	v
+qm	node_modules/url/url.js	/^  var qm = rest.indexOf('?');$/;"	v
+qs	node_modules/nba-client-template/test/index.js	/^var qs = require("querystring");$/;"	v
+qs	node_modules/querystring/test/index.js	/^var qs = require('..\/');$/;"	v
+reIsHostCtor	node_modules/lodash._getnative/index.js	/^var reIsHostCtor = \/^\\[object .+?Constructor\\]$\/;$/;"	v
+reIsHostCtor	node_modules/lodash.isarray/index.js	/^var reIsHostCtor = \/^\\[object .+?Constructor\\]$\/;$/;"	v
+reIsUint	node_modules/lodash._isiterateecall/index.js	/^var reIsUint = \/^\\d+$\/;$/;"	v
+reIsUint	node_modules/lodash.keys/index.js	/^var reIsUint = \/^\\d+$\/;$/;"	v
+reIsUint	node_modules/lodash.keysin/index.js	/^var reIsUint = \/^\\d+$\/;$/;"	v
+relativeTests	node_modules/url/test.js	/^var relativeTests = [$/;"	v
+relativeTests2	node_modules/url/test.js	/^var relativeTests2 = [$/;"	v
+removeHeader	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype.removeHeader = function (name) {$/;"	m	class:RedirectableRequest
+removeMatchingHeaders	node_modules/follow-redirects/index.js	/^function removeMatchingHeaders(regex, headers) {$/;"	f
+request	node_modules/axios/lib/core/Axios.js	/^    request: new InterceptorManager(),$/;"	p	class:Axios.interceptors
+request	node_modules/axios/lib/core/Axios.js	/^Axios.prototype.request = function request(config) {$/;"	m	class:Axios
+resolve	node_modules/url/url.js	/^Url.prototype.resolve = function(relative) {$/;"	m	class:Url
+resolveObject	node_modules/url/url.js	/^Url.prototype.resolveObject = function(relative) {$/;"	m	class:Url
+restParam	node_modules/lodash.restparam/index.js	/^function restParam(func, start) {$/;"	f
+return	node_modules/querystring/decode.js	/^  return Object.prototype.hasOwnProperty.call(obj, prop);$/;"	c
+run	node_modules/nba/src/cli.js	/^function run (args) {$/;"	f
+s	node_modules/ms/index.js	/^var s = 1000;$/;"	v
+save	node_modules/debug/src/browser.js	/^function save(namespaces) {$/;"	f
+save	node_modules/debug/src/node.js	/^function save(namespaces) {$/;"	f
+scoreboard	node_modules/nba/src/stats.js	/^  scoreboard: general,$/;"	p	class:const
+searchPlayers	node_modules/nba/src/index.js	/^function searchPlayers (str) {$/;"	f
+season	node_modules/nba/src/data.js	/^coaches.defaults = { season: null };$/;"	p	class:coaches.defaults
+season	node_modules/nba/src/data.js	/^playoffsBracket.defaults = { season: null };$/;"	p	class:playoffsBracket.defaults
+season	node_modules/nba/src/data.js	/^schedule.defaults = { season: null };$/;"	p	class:schedule.defaults
+season	node_modules/nba/src/data.js	/^teamLeaders.defaults = { season: null, teamId: null };$/;"	p	class:teamLeaders.defaults
+season	node_modules/nba/src/data.js	/^teamSchedule.defaults = { season: null, teamId: null };$/;"	p	class:teamSchedule.defaults
+season	node_modules/nba/src/data.js	/^teamStatsRankings.defaults = { season: null };$/;"	p	class:teamStatsRankings.defaults
+season	node_modules/nba/src/sport-vu.js	/^const defaults = { season: 2017 };$/;"	p	class:const
+selectColor	node_modules/debug/src/debug.js	/^function selectColor(namespace) {$/;"	f
+setArg	node_modules/minimist/index.js	/^    function setArg (key, val, arg) {$/;"	f
+setContentTypeIfUnset	node_modules/axios/lib/defaults.js	/^function setContentTypeIfUnset(headers, value) {$/;"	f
+setHeader	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype.setHeader = function (name, value) {$/;"	m	class:RedirectableRequest
+setKey	node_modules/minimist/index.js	/^    function setKey (obj, keys, value) {$/;"	f
+setTimeout	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype.setTimeout = function (msecs, callback) {$/;"	m	class:RedirectableRequest
+settle	node_modules/axios/lib/adapters/http.js	/^var settle = require('.\/..\/core\/settle');$/;"	v
+settle	node_modules/axios/lib/adapters/xhr.js	/^var settle = require('.\/..\/core\/settle');$/;"	v
+settle	node_modules/axios/lib/core/settle.js	/^module.exports = function settle(resolve, reject, response) {$/;"	f
+shimKeys	node_modules/lodash.keys/index.js	/^function shimKeys(object) {$/;"	f
+shots	node_modules/nba/src/stats.js	/^  shots: general,$/;"	p	class:const
+sinon	node_modules/nba/test/nba-api-spy.js	/^var sinon = require("sinon");$/;"	v
+snake	node_modules/nba-client-template/example-clients/simple-client.py	/^def snake(name):$/;"	f
+snake	node_modules/nba-client-template/example-clients/simple-client.rb	/^def snake(str)$/;"	f
+source	node_modules/axios/lib/cancel/CancelToken.js	/^CancelToken.source = function source() {$/;"	f
+sportVu	node_modules/nba/src/transforms.js	/^function sportVu (resp) {$/;"	f
+sportVuMethod	node_modules/nba/src/sport-vu.js	/^  function sportVuMethod () {$/;"	f	function:makeSportVuMethod
+spread	node_modules/axios/lib/helpers/spread.js	/^module.exports = function spread(callback) {$/;"	f
+spy.lastCalledWithOption	node_modules/nba/test/nba-api-spy.js	/^  spy.lastCalledWithOption = function (option, value) {$/;"	f
+spy.lastCalledWithUrl	node_modules/nba/test/nba-api-spy.js	/^  spy.lastCalledWithUrl = function (url) {$/;"	f
+startTimer	node_modules/follow-redirects/index.js	/^function startTimer(request, msecs) {$/;"	f
+statsEndpointDocs	node_modules/nba/scripts/generate-stats-docs.js	/^function statsEndpointDocs ([fileName, fileContents]) {$/;"	f
+statsMethod	node_modules/nba/src/stats.js	/^  function statsMethod (query = {}) {$/;"	f	function:makeStatsMethod
+stream	node_modules/debug/src/node.js	/^var stream = 1 === fd ? process.stdout :$/;"	v
+string	node_modules/nba/test/unit/util/string.js	/^var string = require("..\/..\/..\/src\/util\/string");$/;"	v
+stringifyPrimitive	node_modules/querystring/encode.js	/^var stringifyPrimitive = function(v) {$/;"	f
+stripBOM	node_modules/axios/lib/utils.js	/^  stripBOM: stripBOM$/;"	p	class:module.exports
+stripBOM	node_modules/axios/lib/utils.js	/^function stripBOM(content) {$/;"	f
+success	node_modules/nba/test/get-json-stub.js	/^  success: jsonStub,$/;"	p	class:module.exports
+synergyMethod	node_modules/nba/src/synergy.js	/^  function synergyMethod (query = {}) {$/;"	f	function:makeSynergyMethod
+tap	node_modules/nba/scripts/generate-stats-docs.js	/^Object.prototype.tap = function (fn) { fn(this); return this; };$/;"	m	class:Object
+teamClutch	node_modules/nba/src/stats.js	/^  teamClutch: general,$/;"	p	class:const
+teamHistoricalLeaders	node_modules/nba/src/stats.js	/^  teamHistoricalLeaders: general,$/;"	p	class:const
+teamId	node_modules/nba/src/data.js	/^teamLeaders.defaults = { season: null, teamId: null };$/;"	p	class:teamLeaders.defaults
+teamId	node_modules/nba/src/data.js	/^teamSchedule.defaults = { season: null, teamId: null };$/;"	p	class:teamSchedule.defaults
+teamIdFromName	node_modules/nba/src/index.js	/^function teamIdFromName (name) {$/;"	f
+teamInfo	node_modules/nba/src/team-info.js	/^function teamInfo () {$/;"	f
+teamInfoCommon	node_modules/nba/src/stats.js	/^  teamInfoCommon: general,$/;"	p	class:const
+teamPlayerDashboard	node_modules/nba/src/stats.js	/^  teamPlayerDashboard: general,$/;"	p	class:const
+teamPlayerOnOffDetails	node_modules/nba/src/stats.js	/^  teamPlayerOnOffDetails: general,$/;"	p	class:const
+teamShooting	node_modules/nba/src/stats.js	/^  teamShooting: general,$/;"	p	class:const
+teamSplits	node_modules/nba/src/stats.js	/^  teamSplits: general,$/;"	p	class:const
+teamStats	node_modules/nba/src/stats.js	/^  teamStats: base,$/;"	p	class:const
+teamYears	node_modules/nba/src/stats.js	/^  teamYears: base,$/;"	p	class:const
+template	node_modules/nba-client-template/test/index.js	/^var template = require("..\/nba.json");$/;"	v
+test	node_modules/minimist/test/all_bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/dash.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/default_bool.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/dotted.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/kv_short.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/long.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/num.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/parse.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/parse_modified.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/proto.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/short.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/stop_early.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/unknown.js	/^var test = require('tape');$/;"	v
+test	node_modules/minimist/test/whitespace.js	/^var test = require('tape');$/;"	v
+throwIfCancellationRequested	node_modules/axios/lib/core/dispatchRequest.js	/^function throwIfCancellationRequested(config) {$/;"	f
+throwIfRequested	node_modules/axios/lib/cancel/CancelToken.js	/^CancelToken.prototype.throwIfRequested = function throwIfRequested() {$/;"	m	class:CancelToken
+toASCII	node_modules/punycode/punycode.js	/^	function toASCII(input) {$/;"	f
+toJSON	node_modules/axios/lib/core/enhanceError.js	/^  error.toJSON = function toJSON() {$/;"	f
+toObject	node_modules/lodash._baseeach/index.js	/^function toObject(value) {$/;"	f
+toObject	node_modules/lodash._baseismatch/index.js	/^function toObject(value) {$/;"	f
+toObject	node_modules/lodash._basematches/index.js	/^function toObject(value) {$/;"	f
+toObject	node_modules/lodash._pickbyarray/index.js	/^function toObject(value) {$/;"	f
+toObject	node_modules/lodash.pairs/index.js	/^function toObject(value) {$/;"	f
+toString	node_modules/axios/lib/cancel/Cancel.js	/^Cancel.prototype.toString = function toString() {$/;"	m	class:Cancel
+toUnicode	node_modules/punycode/punycode.js	/^	function toUnicode(input) {$/;"	f
+to_s	node_modules/nba-client-template/example-clients/simple-client.rb	/^    def to_s$/;"	f	class:QueryString
+tr	node_modules/lower-case/lower-case.js	/^  tr: {$/;"	p	class:LANGUAGES
+tr	node_modules/upper-case/upper-case.js	/^  tr: {$/;"	p	class:LANGUAGES
+transformData	node_modules/axios/lib/core/dispatchRequest.js	/^var transformData = require('.\/transformData');$/;"	v
+transformData	node_modules/axios/lib/core/transformData.js	/^module.exports = function transformData(data, headers, fns) {$/;"	f
+translateKeys	node_modules/nba/src/util/translate-keys.js	/^module.exports = function translateKeys (translationMap, target) {$/;"	f
+trim	node_modules/axios/lib/utils.js	/^  trim: trim,$/;"	p	class:module.exports
+trim	node_modules/axios/lib/utils.js	/^function trim(str) {$/;"	f
+tty	node_modules/debug/src/node.js	/^var tty = require('tty');$/;"	v
+typedArrayTags	node_modules/lodash.istypedarray/index.js	/^var typedArrayTags = {};$/;"	v
+ucs2	node_modules/punycode/punycode.js	/^		'ucs2': {$/;"	p	class:punycode
+ucs2decode	node_modules/punycode/punycode.js	/^	function ucs2decode(string) {$/;"	f
+ucs2encode	node_modules/punycode/punycode.js	/^	function ucs2encode(array) {$/;"	f
+unDashHyphen	node_modules/nba/src/util/string.js	/^function unDashHyphen (str) {$/;"	f
+unnest	node_modules/nba/src/util/unnest.js	/^function unnest (obj) {$/;"	f
+updatePlayers	node_modules/nba/src/index.js	/^function updatePlayers () {$/;"	f
+updateTeams	node_modules/nba/scripts/teams.js	/^var updateTeams = require("..\/src").updateTeams;$/;"	v
+updateTeams	node_modules/nba/src/index.js	/^function updateTeams () {$/;"	f
+upperFirst	node_modules/nba-client-template/example-clients/golang/generate/generate.go	/^func upperFirst(s string) string {$/;"	f
+url	node_modules/axios/lib/adapters/http.js	/^var url = require('url');$/;"	v
+url	node_modules/follow-redirects/index.js	/^var url = require("url");$/;"	v
+url	node_modules/node-fetch/lib/index.js	/^var url = require('url');$/;"	v
+url	node_modules/url/test.js	/^var url = require('.\/url');$/;"	v
+urlFormat	node_modules/url/url.js	/^function urlFormat(obj) {$/;"	f
+urlParse	node_modules/url/url.js	/^function urlParse(url, parseQueryString, slashesDenoteHost) {$/;"	f
+urlPosition	node_modules/nba/test/nba-api-spy.js	/^var urlPosition = 0;$/;"	v
+urlResolve	node_modules/url/url.js	/^function urlResolve(source, relative) {$/;"	f
+urlResolveObject	node_modules/url/url.js	/^function urlResolveObject(source, relative) {$/;"	f
+urlToOptions	node_modules/follow-redirects/index.js	/^function urlToOptions(urlObject) {$/;"	f
+use	node_modules/axios/lib/core/InterceptorManager.js	/^InterceptorManager.prototype.use = function use(fulfilled, rejected) {$/;"	m	class:InterceptorManager
+useColors	node_modules/debug/src/browser.js	/^function useColors() {$/;"	f
+useColors	node_modules/debug/src/node.js	/^function useColors() {$/;"	f
+util	node_modules/debug/src/node.js	/^var util = require('util');$/;"	v
+util	node_modules/url/url.js	/^var util = require('.\/util');$/;"	v
+utils	node_modules/axios/lib/adapters/http.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/adapters/xhr.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/axios.js	/^var utils = require('.\/utils');$/;"	v
+utils	node_modules/axios/lib/core/Axios.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/core/InterceptorManager.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/core/dispatchRequest.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/core/mergeConfig.js	/^var utils = require('..\/utils');$/;"	v
+utils	node_modules/axios/lib/core/transformData.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/defaults.js	/^var utils = require('.\/utils');$/;"	v
+utils	node_modules/axios/lib/helpers/buildURL.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/helpers/cookies.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/helpers/isURLSameOrigin.js	/^var utils = require('.\/..\/utils');$/;"	v
+utils	node_modules/axios/lib/helpers/normalizeHeaderName.js	/^var utils = require('..\/utils');$/;"	v
+utils	node_modules/axios/lib/helpers/parseHeaders.js	/^var utils = require('.\/..\/utils');$/;"	v
+verifyParametersExist	node_modules/nba-client-template/script/parse.js	/^function verifyParametersExist (endpoint) {$/;"	f
+version	node_modules/punycode/punycode.js	/^		'version': '1.3.2',$/;"	p	class:punycode
+wrap	node_modules/follow-redirects/index.js	/^function wrap(protocols) {$/;"	f
+write	node_modules/follow-redirects/index.js	/^RedirectableRequest.prototype.write = function (data, encoding, callback) {$/;"	m	class:RedirectableRequest
+writeData	node_modules/nba/test/integration/synergy.js	/^function writeData (name, data) {$/;"	f
+writeMarkdown	node_modules/nba/scripts/generate-stats-docs.js	/^function writeMarkdown (docs) {$/;"	f
+xhrAdapter	node_modules/axios/lib/adapters/xhr.js	/^module.exports = function xhrAdapter(config) {$/;"	f
+y	node_modules/ms/index.js	/^var y = d * 365.25;$/;"	v
+year	node_modules/nba/src/data.js	/^teams.defaults = { year: null };$/;"	p	class:teams.defaults
+zlib	node_modules/axios/lib/adapters/http.js	/^var zlib = require('zlib');$/;"	v
