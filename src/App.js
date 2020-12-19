@@ -9,7 +9,7 @@ class App extends React.Component {
     }
   }
   componentDidMount() {
-    let w = nba.players.filter(player => player.teamId == 1610612744);
+    let w = nba.players.filter(player => player.teamId === 1610612744);
     let warriors = w.map(warrior => warrior)
     
     this.setState({
