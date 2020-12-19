@@ -44,3 +44,6 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+
+# ctags
+tags
