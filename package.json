@@ -18,6 +18,18 @@
   "homepage": "https://github.com/coolthx/nba-api-app#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-react": "^4.0.0",
+    "gulp-watch": "^5.0.1",
+    "http-server": "^0.12.3",
     "nba": "^4.13.0"
-  }
+  },
+  "devDependencies": {}
 }
