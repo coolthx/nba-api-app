@@ -10,6 +10,8 @@ class App extends React.Component {
       currentTeamId: "",
       showId: false,
     };
+    // One-Way Binding
+    this.showTeamId = this.showTeamId.bind(this);
   }
   componentDidMount() {
     // Filtering all players that play for the Warriors
@@ -21,12 +23,17 @@ class App extends React.Component {
       warriors: w,
     });
   }
-  showTeamId() {}
+  showTeamId() {
+    this.setState({
+      showId: !this.state.showId,
+    });
+  }
   render() {
     return (
       <div className="App">
         <h1>NBA API App</h1>
-        <h2>2019 / 2020 Warriors Lineup</h2>
+        <h2>Filtering players per team (Ex: Warriors)</h2>
+        <h4>Example: Warriors</h4>
         <ul>
           {this.state.warriors.map((w) => (
             <li key={w.playerId} value={w.playerId}>
@@ -34,18 +41,14 @@ class App extends React.Component {
             </li>
           ))}
         </ul>
-        <h2>Teams</h2>
+        <h2>Team Iteration</h2>
+        <button onClick={this.showTeamId}>Show Team IDs</button>
         <ul>
-          <li>
-            {this.state.teams.map((t) => (
-              <li value={t.teamId}>
-                {t.teamId}{" "}
-                <a href="" onclick={this.showTeamId}>
-                  {t.teamName}
-                </a>
-              </li>
-            ))}
-          </li>
+          {this.state.teams.map((t) => (
+            <li key={t.teamId} value={t.teamId}>
+              {this.state.showId ? t.teamId + " - " : ""} {t.teamName}
+            </li>
+          ))}
         </ul>
       </div>
     );
